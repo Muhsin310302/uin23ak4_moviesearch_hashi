@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="grid-container">
-      <nav className="navbar">
+      <nav>
       <h1 className="color-2">Disney-</h1>
       <Resultat onSearch={Search} />
       </nav>
