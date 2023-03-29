@@ -5,7 +5,9 @@ function SearchBar({ onSearch }) {
 
   const SearchResult = (event) => {
     event.preventDefault();
-    onSearch(drop);
+    if(drop.length >= 3) {
+        onSearch(drop)
+    }
   };
 
   return (

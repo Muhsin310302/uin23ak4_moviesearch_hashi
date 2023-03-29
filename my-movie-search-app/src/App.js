@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-import "./App.css";
+import './css/main.css'
 import Resultat from "./components/Resultat";
 import Card from "./components/Card";
 

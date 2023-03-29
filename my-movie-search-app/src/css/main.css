@@ -1,0 +1,61 @@
+
+  
+  
+  body{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    background-color: #282c34; 
+  
+  }
+  
+  .moviebox{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin-left: -15px;
+    align-items: flex-end;
+    gap: 15rem;
+    list-style: none;
+    color: aliceblue;
+  }
+  
+  
+  
+  .color{
+    color: aliceblue;
+    
+  }
+  
+  .color-2{
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .search{
+    text-align: center;
+  }
+  
+  .input{
+    height: 20px;
+  }
+  
+  .space{
+    height: 26px;
+  }
+  
+  .box{
+    border: 3px solid grey;
+  }
+  
+  .button{
+    height: 30px;
+    width: 125px;
+    background-color: green;
+  }
+  
+  .navbar{
+    
+  }
+
+  
