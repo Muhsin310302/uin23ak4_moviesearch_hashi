@@ -12,7 +12,6 @@ function MovieList({ movies }) {
         </li>
       ))}
     </ul>
-    //legg til director
   );
 }
 
